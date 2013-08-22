@@ -11,7 +11,7 @@ node-weibov2
 
 市面上的weibo nodejs sdk 不少，但是有些是1.0，有些2.0的大部分功能不够完善，用的人少，所以有问题也很少改进。
 
-这个模块是根据weibo-v2.js（[[https://github.com/vzhishu/node-weibo-v2]]）改进而来。有以下改进。
+这个模块是根据weibo-v2.js（[[https://github.com/xinyu198736/node-weibov2]]）改进而来。有以下改进。
 
 * 支持从本地发图片，也就是upload，目前看到的2.0的nodejs sdk，发现这个功能都没有实现的。我参考一个1.0的框架实现了此功能。
 * 支持url缩短，url缩短需要向sdk传入多个索引名相同的配置属性，js不支持，在此模块中，多个相同索引名的属性，只需要这样传入：
